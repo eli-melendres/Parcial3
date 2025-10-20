@@ -5,9 +5,9 @@ namespace NumberGuessGameApi.Models
 {
     public class Attempt
     {
-        //Atributos
         public string ResultMessage { get; set; } = string.Empty;
         [Required]
+        [Key]
         public int AttemptId { get; set; }
 
         [StringLength(4, MinimumLength = 4)]

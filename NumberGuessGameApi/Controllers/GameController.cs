@@ -22,10 +22,6 @@ namespace NumberGuessGameApi.Controllers
 
         //Metodo que realiza un intento de adivinar el número secreto
         [HttpPost("guess")]
-        [ProducesResponseType(typeof(GuessNumberResponse), StatusCodes.Status200OK)]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GuessNumber([FromBody] GuessNumberRequest request)
         {
             try
