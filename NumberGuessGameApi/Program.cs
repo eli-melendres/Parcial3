@@ -45,6 +45,8 @@ namespace NumberGuessGameApi
             catch (Exception ex)
             {
                 Log.Fatal(ex, "La aplicación falló al iniciar");
+                Log.Fatal(ex, "Excepción: {ExceptionType}", ex.GetType().Name);
+                Log.Fatal(ex, "Mensaje: {Message}", ex.Message);
             }
             finally
             {

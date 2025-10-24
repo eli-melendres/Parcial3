@@ -21,10 +21,46 @@ namespace NumberGuessGameApi.Data
             base.OnModelCreating(modelBuilder);
 
             //Config entidad Player
-        
+
             //Config entidad Game
 
             //Config entidad Attempt
+            modelBuilder.Entity<Attempt>(entity =>
+            {
+                entity.ToTable("Attempts");
+
+                entity.HasKey(a => a.AttemptId);
+
+                entity.Property(a => a.AttemptId)
+                    .HasColumnName("AttemptId")
+                    .ValueGeneratedOnAdd();
+
+                entity.Property(a => a.GameId)
+                    .IsRequired()
+                    .HasColumnName("GameId");
+
+                entity.Property(a => a.AttemptedNumber)
+                    .IsRequired()
+                    .HasMaxLength(4)
+                    .HasColumnName("AttemptedNumber");
+
+                entity.Property(a => a.Famas)
+                    .IsRequired()
+                    .HasColumnName("Famas");
+
+                entity.Property(a => a.Picas)
+                    .IsRequired()
+                    .HasColumnName("Picas");
+
+                entity.Property(a => a.AttemptedAt)
+                    .IsRequired()
+                    .HasColumnName("AttemptedAt")
+                    .HasDefaultValueSql("GETDATE()");
+
+                entity.Property(a => a.ResultMessage)
+                    .HasMaxLength(500)
+                    .HasColumnName("ResultMessage"); 
+            });
         }
 
     }
