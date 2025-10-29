@@ -137,5 +137,24 @@ namespace NumberGuessGameApi.Migrations.Services
 
             return secretNumber;
         }
+        // Logica del juego
+        private static readonly Dictionary<Guid, GameSession> _sessions = new();
+        public GameSession StartGame()
+        {
+            var random = new Random();
+            var newGame = new GameSession
+            {
+                SecretNumber = random.Next(1, 101)
+            };
+
+            _sessions[newGame.GameId] = newGame;
+            return newGame;
+        }
+
+        public GameSession? GetSession(Guid gameId)
+        {
+            _sessions.TryGetValue(gameId, out var session);
+            return session;
+        }
     }
 }
