@@ -9,6 +9,7 @@ namespace NumberGuessGameApi.Models
         public string ResultMessage { get; set; } = string.Empty;
         [Required]
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int AttemptId { get; set; }
 
         [StringLength(4, MinimumLength = 4)]

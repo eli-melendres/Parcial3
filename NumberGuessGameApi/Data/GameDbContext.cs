@@ -3,7 +3,6 @@ using NumberGuessGameApi.Models;
 
 namespace NumberGuessGameApi.Data 
 {
-    //Constructor que recibe las opciones de configuración
     public class GameDbContext : DbContext
     {
         //Cada DbSet<Entity> se convierte en una tabla en SQL Server
@@ -16,9 +15,16 @@ namespace NumberGuessGameApi.Data
         {
             
         }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.EnableSensitiveDataLogging();
+            optionsBuilder.EnableDetailedErrors();
+            base.OnConfiguring(optionsBuilder);
+        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
 
             // Config entidad Player
             modelBuilder.Entity<Player>(entity =>
@@ -89,7 +95,7 @@ namespace NumberGuessGameApi.Data
 
                 entity.Property(a => a.ResultMessage)
                     .HasMaxLength(500)
-                    .HasColumnName("ResultMessage"); 
+                    .HasColumnName("ResultMessage");
             });
         }
 
