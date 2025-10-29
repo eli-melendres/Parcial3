@@ -87,9 +87,9 @@ namespace NumberGuessGameApi.Controllers
             }
         }
         //Metodo para iniciar un nuevo juego
-     {
-           [HttpPost("start")]
-           public IActionResult Start()
+        [HttpPost("start")]
+        public IActionResult Start()
+         
          {
             var game = _gameService.StartGame();
 
