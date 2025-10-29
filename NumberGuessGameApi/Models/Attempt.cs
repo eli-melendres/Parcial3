@@ -76,5 +76,12 @@ namespace NumberGuessGameApi.Models
             return $"Attempt #{AttemptId} - GameId: {GameId} - Number: {AttemptedNumber} - " +
                    $"Famas: {Famas}, Picas: {Picas} - {AttemptedAt:yyyy-MM-dd HH:mm:ss}";
         }
+        public class GameSession
+        {
+          public Guid GameId { get; set; } = Guid.NewGuid();
+          public int SecretNumber { get; set; }
+          public int Attempts { get; set; } = 0;
+          public bool IsActive { get; set; } = true;
+        }
     }
 }
