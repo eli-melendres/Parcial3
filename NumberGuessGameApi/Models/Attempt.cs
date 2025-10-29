@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection.Metadata;
 
 namespace NumberGuessGameApi.Models
@@ -11,8 +12,12 @@ namespace NumberGuessGameApi.Models
         public int AttemptId { get; set; }
 
         [StringLength(4, MinimumLength = 4)]
-        public string AttemptedNumber { get; set; }
-        public virtual Game GameId { get; set; }
+        public string AttemptedNumber { get; set; } = string.Empty;
+        [Required]
+        public int GameId { get; set; }
+
+        [ForeignKey("GameId")]
+        public virtual Game Game { get; set; }
         public DateTime AttemptedAt { get; set; }
 
         [Range(0, 4)]

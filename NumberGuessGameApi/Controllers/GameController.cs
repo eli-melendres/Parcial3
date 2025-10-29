@@ -86,9 +86,94 @@ namespace NumberGuessGameApi.Controllers
 
             }
         }
-        //Metodo
+        // Endpoint para registrar un nuevo jugador
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] RegisterPlayerRequest request)
+        {
+            try
+            {
+                _logger.LogInformation("Intento de registro. Nombre: {FirstName} {LastName}",
+                    request?.FirstName, request?.LastName);
 
-        //Metodo
+                if (request == null)
+                {
+                    _logger.LogWarning("Request de registro es null");
+                    return BadRequest(new { Message = "Los datos del jugador son requeridos" });
+                }
+
+                if (string.IsNullOrWhiteSpace(request.FirstName))
+                {
+                    _logger.LogWarning("Nombre vacío");
+                    return BadRequest(new { Message = "El nombre es requerido" });
+                }
+
+                if (string.IsNullOrWhiteSpace(request.LastName))
+                {
+                    _logger.LogWarning("Apellido vacío");
+                    return BadRequest(new { Message = "El apellido es requerido" });
+                }
+
+                if (request.Age <= 0 || request.Age > 120)
+                {
+                    _logger.LogWarning("Edad inválida: {Age}", request.Age);
+                    return BadRequest(new { Message = "La edad debe estar entre 1 y 120 años" });
+                }
+
+                var response = await _gameService.RegisterPlayerAsync(request);
+                _logger.LogInformation("Jugador registrado exitosamente. PlayerId: {PlayerId}", response.PlayerId);
+
+                return Ok(response);
+            }
+            catch (InvalidOperationException ex)
+            {
+                _logger.LogWarning(ex, "Intento de registro duplicado");
+                return BadRequest(new { Message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error al registrar jugador");
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    new { Message = "Error interno del servidor" });
+            }
+        }
+
+        // Endpoint para iniciar un juego
+        [HttpPost("start")]
+        public async Task<IActionResult> StartGame([FromBody] StartGameRequest request)
+        {
+            try
+            {
+                _logger.LogInformation("Intento de iniciar juego. PlayerId: {PlayerId}",
+                    request?.PlayerId);
+
+                if (request == null || request.PlayerId <= 0)
+                {
+                    return BadRequest(new { Message = "PlayerId inválido" });
+                }
+
+                if (!await _gameService.PlayerExistsAsync(request.PlayerId))
+                {
+                    return NotFound(new { Message = $"El jugador con ID {request.PlayerId} no está registrado" });
+                }
+
+                var response = await _gameService.StartGameAsync(request);
+                _logger.LogInformation("Juego iniciado. GameId: {GameId}, PlayerId: {PlayerId}",
+                    response.GameId, response.PlayerId);
+
+                return Ok(response);
+            }
+            catch (InvalidOperationException ex)
+            {
+                _logger.LogWarning(ex, "Error de negocio al iniciar juego");
+                return BadRequest(new { Message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error al iniciar juego");
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    new { Message = "Error interno del servidor" });
+            }
+        }
 
     }
 }

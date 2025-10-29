@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NumberGuessGameApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5fefa31a55c2853604d563177f1966350d22dab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+434a905304b38f46f5352628512e467f88fc4b8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("NumberGuessGameApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NumberGuessGameApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

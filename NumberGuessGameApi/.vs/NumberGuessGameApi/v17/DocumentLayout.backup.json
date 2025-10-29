@@ -1,0 +1,338 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\logs\\game-api.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:logs\\game-api.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\numberguessgameapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:numberguessgameapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\models\\attempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:models\\attempt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\migrations\\services\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:migrations\\services\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\migrations\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:migrations\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\datatransferobjects\\startgameresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:datatransferobjects\\startgameresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\datatransferobjects\\startgamerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:datatransferobjects\\startgamerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\datatransferobjects\\registerplayerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:datatransferobjects\\registerplayerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\datatransferobjects\\registerplayerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:datatransferobjects\\registerplayerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\datatransferobjects\\guessnumberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:datatransferobjects\\guessnumberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\datatransferobjects\\guessnumberrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:datatransferobjects\\guessnumberrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\data\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:data\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|c:\\users\\sheyla\\source\\repos\\parcial3\\numberguessgameapi\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2EC72AE5-11E5-4AE9-B72A-95446BE44939}|NumberGuessGameApi.csproj|solutionrelative:controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-29T00:40:50.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NumberGuessGameApi.http",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\NumberGuessGameApi.http",
+              "RelativeDocumentMoniker": "NumberGuessGameApi.http",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\NumberGuessGameApi.http",
+              "RelativeToolTip": "NumberGuessGameApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-10-28T21:47:46.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T21:48:40.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T21:49:32.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "game-api.txt",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\logs\\game-api.txt",
+              "RelativeDocumentMoniker": "logs\\game-api.txt",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\logs\\game-api.txt",
+              "RelativeToolTip": "logs\\game-api.txt",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwFYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-10-28T21:41:56.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "Models\\Player.cs",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Models\\Player.cs",
+              "RelativeToolTip": "Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T01:25:04.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Attempt.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Models\\Attempt.cs",
+              "RelativeDocumentMoniker": "Models\\Attempt.cs",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Models\\Attempt.cs",
+              "RelativeToolTip": "Models\\Attempt.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA1wFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T01:23:36.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Migrations\\Services\\GameService.cs",
+              "RelativeDocumentMoniker": "Migrations\\Services\\GameService.cs",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Migrations\\Services\\GameService.cs",
+              "RelativeToolTip": "Migrations\\Services\\GameService.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAowOUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T21:42:37.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StartGameResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\DataTransferObjects\\StartGameResponse.cs",
+              "RelativeDocumentMoniker": "DataTransferObjects\\StartGameResponse.cs",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\DataTransferObjects\\StartGameResponse.cs",
+              "RelativeToolTip": "DataTransferObjects\\StartGameResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T21:41:17.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StartGameRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\DataTransferObjects\\StartGameRequest.cs",
+              "RelativeDocumentMoniker": "DataTransferObjects\\StartGameRequest.cs",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\DataTransferObjects\\StartGameRequest.cs",
+              "RelativeToolTip": "DataTransferObjects\\StartGameRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T21:40:37.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "Models\\Game.cs",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Models\\Game.cs",
+              "RelativeToolTip": "Models\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T00:50:04.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IGameService.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Migrations\\Services\\IGameService.cs",
+              "RelativeDocumentMoniker": "Migrations\\Services\\IGameService.cs",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Migrations\\Services\\IGameService.cs",
+              "RelativeToolTip": "Migrations\\Services\\IGameService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T21:44:20.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterPlayerResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\DataTransferObjects\\RegisterPlayerResponse.cs",
+              "RelativeDocumentMoniker": "DataTransferObjects\\RegisterPlayerResponse.cs",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\DataTransferObjects\\RegisterPlayerResponse.cs",
+              "RelativeToolTip": "DataTransferObjects\\RegisterPlayerResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T21:40:06.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterPlayerRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\DataTransferObjects\\RegisterPlayerRequest.cs",
+              "RelativeDocumentMoniker": "DataTransferObjects\\RegisterPlayerRequest.cs",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\DataTransferObjects\\RegisterPlayerRequest.cs",
+              "RelativeToolTip": "DataTransferObjects\\RegisterPlayerRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T01:07:33.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GuessNumberResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\DataTransferObjects\\GuessNumberResponse.cs",
+              "RelativeDocumentMoniker": "DataTransferObjects\\GuessNumberResponse.cs",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\DataTransferObjects\\GuessNumberResponse.cs",
+              "RelativeToolTip": "DataTransferObjects\\GuessNumberResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T01:06:28.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GameController.cs",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Controllers\\GameController.cs",
+              "RelativeToolTip": "Controllers\\GameController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T01:03:11.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Data\\GameDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\GameDbContext.cs",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\Data\\GameDbContext.cs",
+              "RelativeToolTip": "Data\\GameDbContext.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T21:37:07.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GuessNumberRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\DataTransferObjects\\GuessNumberRequest.cs",
+              "RelativeDocumentMoniker": "DataTransferObjects\\GuessNumberRequest.cs",
+              "ToolTip": "C:\\Users\\Sheyla\\source\\repos\\Parcial3\\NumberGuessGameApi\\DataTransferObjects\\GuessNumberRequest.cs",
+              "RelativeToolTip": "DataTransferObjects\\GuessNumberRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T21:37:50.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
