@@ -20,11 +20,41 @@ namespace NumberGuessGameApi.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            //Config entidad Player
+            // Config entidad Player
+            modelBuilder.Entity<Player>(entity =>
+            {
+                entity.ToTable("Players");
+                entity.HasKey(p => p.PlayerId);
+                entity.Property(p => p.PlayerId).ValueGeneratedOnAdd();
+                entity.Property(p => p.FirstName).IsRequired().HasMaxLength(100);
+                entity.Property(p => p.LastName).IsRequired().HasMaxLength(100);
+                entity.Property(p => p.Age).IsRequired();
+                entity.Property(p => p.RegisteredAt).IsRequired().HasDefaultValueSql("GETDATE()");
 
-            //Config entidad Game
+                entity.HasMany(p => p.Games)
+                    .WithOne(g => g.Player)
+                    .HasForeignKey(g => g.PlayerId)
+                    .OnDelete(DeleteBehavior.Restrict);
+            });
 
-            //Config entidad Attempt
+            // Config entidad Game
+            modelBuilder.Entity<Game>(entity =>
+            {
+                entity.ToTable("Games");
+                entity.HasKey(g => g.GameId);
+                entity.Property(g => g.GameId).ValueGeneratedOnAdd();
+                entity.Property(g => g.PlayerId).IsRequired();
+                entity.Property(g => g.SecretNumber).IsRequired().HasMaxLength(4);
+                entity.Property(g => g.CreatedAt).IsRequired().HasDefaultValueSql("GETDATE()");
+                entity.Property(g => g.IsFinished).IsRequired().HasDefaultValue(false);
+
+                entity.HasMany(g => g.Attempts)
+                    .WithOne(a => a.Game)
+                    .HasForeignKey(a => a.GameId)
+                    .OnDelete(DeleteBehavior.Cascade);
+            });
+
+
             modelBuilder.Entity<Attempt>(entity =>
             {
                 entity.ToTable("Attempts");

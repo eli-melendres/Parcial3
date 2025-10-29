@@ -47,6 +47,15 @@
           }
         }
       },
+      "ESCMB.GameCore/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/GameCore.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/GameCore.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Hosting/2.3.0": {
         "type": "package",
         "dependencies": {
@@ -357,6 +366,9 @@
             "related": ".xml"
           }
         }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/10.0.0-rc.2.25502.107": {
+        "type": "package"
       },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
@@ -1996,6 +2008,19 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
+    "ESCMB.GameCore/1.0.0": {
+      "sha512": "MdhCz93Ti79r4DqWoENoSrrRIYulFLFNsxN0TmBnd7HnvKn5hKy+agzGFj1slE5xMNxd7nq89yxxiS3bkKkBmA==",
+      "type": "package",
+      "path": "escmb.gamecore/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "escmb.gamecore.1.0.0.nupkg.sha512",
+        "escmb.gamecore.nuspec",
+        "lib/net8.0/GameCore.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Hosting/2.3.0": {
       "sha512": "JI/AVsh5OIZu0l2LpuQVUEYKHyLgeXV9uPiGf/IfF3r5sXj/Zcb2tpyxdVMM7y91+V8AUk/ZfwmEkf7pivT8xQ==",
       "type": "package",
@@ -2343,6 +2368,31 @@
         "lib/net8.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
         "microsoft.entityframeworkcore.sqlserver.9.0.9.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Tools/10.0.0-rc.2.25502.107": {
+      "sha512": "aQDYG/ErPxafMg6CopuVaYJo/P3HO7tWlb5xVJGGK8vjCQEpCRtHEkXvIXIhbw7wNhSII/Ucdyak/VR0q6ehqQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/10.0.0-rc.2.25502.107",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "docs/PACKAGE.md",
+        "microsoft.entityframeworkcore.tools.10.0.0-rc.2.25502.107.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net10.0/any/ef.dll",
+        "tools/net10.0/any/ef.runtimeconfig.json",
+        "tools/net472/any/ef.exe",
+        "tools/net472/win-arm64/ef.exe",
+        "tools/net472/win-x86/ef.exe"
       ]
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
@@ -5106,10 +5156,12 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "ESCMB.GameCore >= 1.0.0",
       "Microsoft.AspNetCore.Hosting >= 2.3.0",
       "Microsoft.AspNetCore.Http.Abstractions >= 2.3.0",
       "Microsoft.EntityFrameworkCore >= 9.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.9",
+      "Microsoft.EntityFrameworkCore.Tools >= 10.0.0-rc.2.25502.107",
       "Microsoft.Extensions.Configuration >= 9.0.9",
       "Microsoft.Extensions.DependencyInjection >= 9.0.9",
       "Microsoft.Extensions.Hosting >= 9.0.9",
@@ -5123,19 +5175,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eli20\\.nuget\\packages\\": {}
+    "C:\\Users\\Sheyla\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Parcial3\\NumberGuessGameApi\\NumberGuessGameApi.csproj",
+      "projectUniqueName": "C:\\Users\\Sheyla\\Source\\Repos\\Parcial3\\NumberGuessGameApi\\NumberGuessGameApi.csproj",
       "projectName": "NumberGuessGameApi",
-      "projectPath": "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Parcial3\\NumberGuessGameApi\\NumberGuessGameApi.csproj",
-      "packagesPath": "C:\\Users\\eli20\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Parcial3\\NumberGuessGameApi\\obj\\",
+      "projectPath": "C:\\Users\\Sheyla\\Source\\Repos\\Parcial3\\NumberGuessGameApi\\NumberGuessGameApi.csproj",
+      "packagesPath": "C:\\Users\\Sheyla\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sheyla\\Source\\Repos\\Parcial3\\NumberGuessGameApi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\eli20\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sheyla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5161,12 +5218,17 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "ESCMB.GameCore": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Microsoft.AspNetCore.Hosting": {
             "target": "Package",
             "version": "[2.3.0, )"
@@ -5182,6 +5244,12 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[9.0.9, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[10.0.0-rc.2.25502.107, )"
           },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
@@ -5243,7 +5311,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
