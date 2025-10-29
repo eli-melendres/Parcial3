@@ -86,9 +86,20 @@ namespace NumberGuessGameApi.Controllers
 
             }
         }
-        //Metodo
+        //Metodo para iniciar un nuevo juego
+     {
+           [HttpPost("start")]
+           public IActionResult Start()
+         {
+            var game = _gameService.StartGame();
 
-        //Metodo
+            var response = new StartGameResponse
+            {
+                GameId = game.GameId,
+                Message = "Nuevo juego iniciado. ¡Adivina el número entre 1 y 100!"
+            };
 
+            return Ok(response);
+        }
     }
 }
